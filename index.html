@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/responsive.css">
+    <title>Timer</title>
+    <link rel="icon" type="image/x-icon" href="Image/timer.ico">
+</head>
+<body>
+    <div class="timer">
+        <div class="time-section">
+            <div class="number" id="minutes-tens-upper" data-number="0">0</div>
+            <div class="number" id="minutes-tens-lower" data-number="0"></div>
+        </div>
+        <div class="time-section">
+            <div class="number" id="minutes-ones-upper" data-number="0">0</div>
+            <div class="number" id="minutes-ones-lower" data-number="0"></div>
+        </div>
+        <div class="dot-section">
+            <h1>:</h1>
+        </div>
+        <div class="time-section">
+            <div class="number" id="seconds-tens-upper" data-number="0">0</div>
+            <div class="number" id="seconds-tens-lower" data-number="0"></div>
+        </div>
+        <div class="time-section">
+            <div class="number" id="seconds-ones-upper" data-number="0">0</div>
+            <div class="number" id="seconds-ones-lower" data-number="0"></div>
+        </div>
+    </div>
+    <!-- Add your controls here as you have them in your original code -->
+    
+    <div class="controls">
+        <button id="start"><i class="fa-solid fa-play"></i></button>
+        <button id="stop"><i class="fa-solid fa-stop"></i></button>
+        <button id="reset"><i class="fa-solid fa-circle-minus"></i></button>
+    </div>
+    <script src="https://kit.fontawesome.com/2f363fc945.js" crossorigin="anonymous"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+/* Making Respone */
+
+@media only screen and (max-width: 1150px) {
+    .timer{
+        padding: 75px;
+    }
+    .time-section {
+        color: #fff;
+        padding: 40px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .timer{
+        padding: 50px;
+    }
+    .time-section {
+        padding: 30px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .timer{
+        padding: 40px;
+    }
+    .time-section {
+        padding: 25px;
+    }
+    .dot-section h1{
+        margin: 3rem 10px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .timer{
+        padding: 35px;
+    }
+    .time-section {
+        padding: 20px;
+    }
+    .dot-section h1{
+        margin: 2rem 10px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .timer{
+        padding: 25px;
+    }
+    .time-section {
+        width: 50px;
+        padding: 15px;
+        height: 100px;
+    }
+    .number{
+        font-size:1.5em;
+    }
+    .dot-section h1{
+        margin: 2rem 10px;
+        font-size: 75px;
+    }
+}
+@media only screen and (max-width: 572px) {
+    .timer{
+        padding: 20px;
+    }
+    .time-section {
+        padding: 10px;
+    }
+    .dot-section h1{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .timer{
+        padding: 10px;
+    }
+    .time-section {
+        padding: 5px;
+        height: 75px;
+    }
+    .number{
+        font-size:1em;
+    }
+    .dot-section h1{
+        font-size: 50px;
+        margin: 1.5rem 0px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    .timer{
+        padding: 10px;
+    }
+    .time-section {
+        padding: 5px;
+    }
+    .dot-section h1 {
+        font-size: 40px;
+        margin: 1.75rem 0px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .timer{
+        padding: 5px;
+    }
+    .time-section {
+        padding: 2.5px;
+        margin: 5px;
+    }
+    .number{
+        font-size:0.75em;
+        margin: 0px 0px 0px 10px;
+    }
+    .dot-section h1 {
+        font-size: 40px;
+        margin: 1.25rem 0px;
+    }
+}
