@@ -9,6 +9,14 @@
     <link rel="icon" type="image/x-icon" href="Image/timer.ico">
 </head>
 <body>
+
+    <div class="set-timer">
+        <button id="toggle-btn"><i class="fa-solid fa-caret-down"></i></button>
+        <input type="text" id="minutes" placeholder="M" maxlength="2" class="hidden">
+        <input type="text" id="seconds" placeholder="S" maxlength="2" class="hidden">
+        <button id="time-update-button"  class="hidden"><i class="fa-solid fa-check"></i></button>
+    </div>
+
     <div class="timer">
         <div class="time-section">
             <div class="number" id="minutes-tens-upper" data-number="0">0</div>
@@ -35,9 +43,9 @@
     <div class="controls">
         <button id="start"><i class="fa-solid fa-play"></i></button>
         <button id="stop"><i class="fa-solid fa-stop"></i></button>
-        <button id="reset"><i class="fa-solid fa-circle-minus"></i></button>
+        <button id="reset"><i class="fa-solid fa-rotate-right"></i></button>
     </div>
     <script src="https://kit.fontawesome.com/2f363fc945.js" crossorigin="anonymous"></script>
-    <script src="JS/script.js"></script>
+    <script src="JS/check.js"></script>
 </body>
 </html>

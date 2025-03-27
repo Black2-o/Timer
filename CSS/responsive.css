@@ -66,6 +66,12 @@
     .dot-section h1{
         font-size: 70px;
     }
+    .set-timer {
+        flex-direction: row;
+    }
+    .set-timer button:first-child{
+        rotate: -90deg;
+    }
 }
 @media only screen and (max-width: 500px) {
     .timer{

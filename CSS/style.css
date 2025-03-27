@@ -9,6 +9,11 @@ body, html {
     font-family: 'Arial', sans-serif;
     flex-direction: column;
 }
+
+.hidden {
+    display: none;
+}
+
 .timer{
     display: flex;
     flex-direction: row;
@@ -102,13 +107,33 @@ body, html {
 
 
 /* Button  */
+
+
+/* .controls button {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    cursor: pointer;
+    border-radius: 100%;
+    background: linear-gradient(145deg, #373737, #2e2e2e);
+    box-shadow:  26px 26px 53px #141414,
+                 -26px -26px 53px #525252;
+} */
+
+
 .controls {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
 
-.controls button {
+button{
     width: 30px;
     height: 30px;
     background-color: #333;
@@ -124,12 +149,46 @@ body, html {
     box-shadow:  26px 26px 53px #141414,
                  -26px -26px 53px #525252;
 }
-.controls button i{
+
+button i{
     font-size: 30px;
     position: relative;
     margin: -14px -17px;
 }
-.controls button:hover {
+button:hover {
     background-color: #555;
     color:#ADD8E6;
+}
+
+button:active {
+    background-color: #777;
+    color:#ADD8E6;
+}
+
+
+
+/* Set Time  */
+.set-timer {
+    position: absolute;
+    top: 5rem;
+    left: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.set-timer input{
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+    cursor: pointer;
+    border-radius: 100%;
+    background: linear-gradient(145deg, #373737, #2e2e2e);
+    box-shadow:  26px 26px 53px #141414,
+                 -26px -26px 53px #525252;
 }
