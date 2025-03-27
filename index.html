@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="stylesheet" href="CSS/responsive.css">
-    <title>Timer</title>
+    <title>PomodorOXT</title>
     <link rel="icon" type="image/x-icon" href="Image/timer.ico">
 </head>
 <body>
 
-    <div class="set-timer">
-        <button id="toggle-btn"><i class="fa-solid fa-caret-down"></i></button>
+    <div class="set-timer tooltip-wrapper">
+        <button id="toggle-btn" class="tooltip-trigger particle">
+            <i class="fa-solid fa-caret-down"></i>
+            <span class="tooltip particle-tip">
+                Set Timer
+                <div class="particles">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span>
+                </div>
+            </span>
+        </button>
         <input type="text" id="minutes" placeholder="M" maxlength="2" class="hidden">
         <input type="text" id="seconds" placeholder="S" maxlength="2" class="hidden">
-        <button id="time-update-button"  class="hidden"><i class="fa-solid fa-check"></i></button>
+        <button id="time-update-button"  class="hidden tooltip-trigger particle">
+            <i class="fa-solid fa-check"></i>
+            <span class="tooltip particle-tip">
+                Save
+                <div class="particles">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span>
+                </div>
+            </span>
+        </button>
     </div>
 
     <div class="timer">
@@ -40,10 +58,37 @@
     </div>
     <!-- Add your controls here as you have them in your original code -->
     
-    <div class="controls">
-        <button id="start"><i class="fa-solid fa-play"></i></button>
-        <button id="stop"><i class="fa-solid fa-stop"></i></button>
-        <button id="reset"><i class="fa-solid fa-rotate-right"></i></button>
+    <div class="controls tooltip-wrapper">
+        <button id="start" class="tooltip-trigger particle">
+            <i class="fa-solid fa-play"></i>
+            <span class="tooltip particle-tip">
+                Start
+                <div class="particles">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span>
+                </div>
+            </span>
+        </button>
+        <button id="stop" class="tooltip-trigger particle">
+            <i class="fa-solid fa-stop"></i>
+            <span class="tooltip particle-tip">
+                Stop
+                <div class="particles">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span>
+                </div>
+            </span>
+        </button>
+        <button id="reset" class="tooltip-trigger particle">
+            <i class="fa-solid fa-rotate-right"></i>
+            <span class="tooltip particle-tip">
+                Reset
+                <div class="particles">
+                    <span></span><span></span><span></span>
+                    <span></span><span></span>
+                </div>
+            </span>
+        </button>
     </div>
     <script src="https://kit.fontawesome.com/2f363fc945.js" crossorigin="anonymous"></script>
     <script src="JS/check.js"></script>
